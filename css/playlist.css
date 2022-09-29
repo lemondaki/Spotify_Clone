@@ -1,0 +1,274 @@
+.music_playlist {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+#playlist__header {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    width: 100%;
+    padding-top: 100px;
+    background-color: #121212;
+}
+
+.image__playlist {
+    width: 232px;
+    height: 232px;
+}
+
+.box__playlist {
+    padding-left: 30px;
+}
+
+.playlist__heading {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0;
+}
+
+.playlist__name {
+    font-size: 9.6rem;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+    margin: 0;
+    padding: 50px 0 50px 0;
+    text-align: left;
+    text-align: justify;
+    letter-spacing: -6px;
+}
+
+.playlist__descreption {
+    font-size: 1.6rem;
+    color: #B3B3B3;
+    font-weight: 600;
+}
+
+.playlist__number {
+    display: block;
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 6px;
+}
+
+.playing__img-gif {
+    width: 14px;
+    height: 14px;
+    display: none;
+}
+
+.active__song .list__number .playing__img-gif {
+    display: block;
+}
+
+#playlist__head--btn {
+    padding: 0 16px 30px 6px;
+    display: flex;
+    align-items: center;
+    background-color: #121212;
+}
+
+.btn__pauselist {
+    color: #1ED760;
+    font-size: 5.6rem;
+    display: none;
+}
+
+.btn__playlist {
+    color: #1ED760;
+    font-size: 5.2rem;
+}
+
+.song__img {
+    width: 50px;
+    height: 50px;
+}
+
+.more__options img {
+    color: #A5A5A5;
+    width: 24px;
+}
+
+#container__playlist {
+    margin: 0;
+    background-color: #121212;
+    display: none;
+}
+
+#main__content {
+    background-color: #121212;
+    padding-bottom: 50px;
+}
+
+.box__headline {
+    display: grid;
+    grid-template-columns: 60px 6fr 4fr 3fr 156px;
+    border-bottom: solid 1px #676665;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 74px;
+    padding: 5px 0;
+    z-index: 2;
+    background-color: #121212;
+}
+
+.box__music--infor {
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: 60px 6fr 4fr 3fr 2fr;
+}
+
+.box__music--infor:hover {
+    background-color: #2E2E2E;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.box__music--infor:hover .three__dot,
+.box__music--infor:hover .icon__heart-song {
+    visibility: visible;
+    transition: visibility 0.3s ease;
+}
+
+.box__music--infor:hover .song__author,
+.box__music--infor:hover .album {
+    color: #fff;
+}
+
+.box__music--infor:hover .list__number--stt {
+    display: none;
+}
+
+.box__music--infor:hover .pause-btn {
+    display: block;
+    transition: display 0.5s ease;
+}
+
+.time {
+    color: #fff;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.date,
+.album,
+.title {
+    color: #A8A8A8;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.list__number {
+    color: #A8A8A8;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.album {
+    color: #A8A8A8;
+    display: flex;
+    align-items: center;
+}
+
+.date {
+    color: #A8A8A8;
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    color: #A8A8A8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box__song {
+    display: flex;
+    align-items: center;
+}
+
+.infor__song {
+    padding-left: 12px;
+}
+
+.song__name {
+    color: #fff;
+    display: block;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.active__song .list__number .list__number--stt {
+    color: #1ABD54;
+    display: none;
+}
+
+.active__song .song__name-main {
+    color: #1ABD54;
+}
+
+.active__song .box__song .infor__song .song__name {
+    color: #1ABD54;
+}
+
+.active__song:hover .playing__img-gif {
+    display: none;
+}
+
+.active__song:hover .pause-btn {
+    display: block;
+}
+
+.song__author {
+    color: #ccc;
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.icon__heart-song {
+    visibility: hidden;
+}
+
+.icon__heart-song img {
+    margin-right: 40px;
+    width: 16px;
+    height: 16px;
+}
+
+.box__time-tool {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.three__dot img {
+    color: #A5A5A5;
+    width: 22px;
+    margin: 0 24px;
+}
+
+.three__dot {
+    visibility: hidden;
+}
+
+.pause-btn {
+    width: 16px;
+    height: 16px;
+    display: none;
+}
+
+.pause-btn-img {
+    fill: #fff;
+    width: 100%;
+    height: 100%;
+}
